@@ -1,0 +1,214 @@
+
+body{
+    display: block;
+    background:rgb(79, 153, 131);
+    margin: 0px;
+    font-family: 'Noto Sans SC';
+}
+
+header{
+    background:rgb(24, 211, 139);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cave{
+    background:rgb(24, 211, 139) ;
+    width: 1350px;
+    margin:auto;
+    display:inherit;
+    justify-content: inherit;
+    align-items: center;
+    height: inherit;
+}
+.box{
+    margin: 0px;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+.header ol li{
+    height: inherit;
+}
+.header a{
+    color: rgb(255, 255, 255);
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+ol{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.s1{
+    background-color: rgb(79, 153, 131);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inicio{
+    width: 1200px;
+    margin: auto;
+    display: inherit;
+    justify-content: space-between;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: center;
+}
+.articulo1{
+    text-align: center;
+}
+.articuloimagen{
+    margin: 10px;
+}
+.articuloimagen2{
+    margin: 10px;
+}
+.articuloimagen3{
+    margin: 10px;
+}
+.s2{
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding:10px;
+    margin: 80px;
+}
+.inicio2{
+    width: 1200px;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: start;
+    height: 300px;
+    
+}
+.articulo2{
+    text-align: center;
+}
+.s3{
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding:10px;
+    margin: 80px;
+    display: flex;
+}
+.imagenN{
+    justify-content: center;
+}
+.s4{
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding:10px;
+    margin: 80px;
+    display: flex;
+}
+.s5{
+    background-color: rgb(79, 153, 131);
+    height: 400px;
+}
+.s6{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+}
+.s7{
+    background-color: rgb(79, 153, 131);
+    height: 400px;
+}
+.s8{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+}
+
+.contacto{
+    background: gainsboro;/* Color de fondo*/
+    color: black;/*Color para todos los textos*/
+    height: 150px; /*Creamos un alto */
+    display: flex; /*Alineado vertical para los elemnetos*/
+    align-items: center; /*Centrado de los elementos*/
+    justify-content: space-between; /* Separamos nuestro contenido*/
+}
+
+/*.social{
+    /*border: 1px solid red;*/
+
+.social-link{
+    display: inline-block; /*Cambiamos el display pode defecto de las a */
+    margin: 0 10px; /*Separacion entre nuestro iconos de las redes sociales*/
+    width: 50px; /*Ancho*/
+    height: 50px;/*Alto*/
+    /*border: 1px soli white; /*Creamos un borde*/
+    background-size: 50px 50px;
+}
+
+
+.social-link.twitter{
+    background-image: url('../imagenes/twitter.svg');/*Integramos el logo de twitter*/
+}
+
+.social-link.facebook{
+    background-image: url('../imagenes/facebook.svg');/*Integramos el logo de facebook*/
+}
+
+.social-link.github{
+    background-image: url('../imagenes/github.svg');/*Integramos el logo de github*/
+}
+
+
+.from-email input{
+    border-color: 1px grey;
+    border-style: solid;/*Estilo del borde*/
+    border-radius: 5px; /*Tamano del borde a redondear*/
+    padding: 5px 20px 5px 25px; /*Le creamos un margen interior al recuadro*/
+    background-image: url('../imagenes/gmail.svg');/*Creamos una imagen para el recuadro*/
+    background-size: 15px 15px ;/*Le agregamos tamaño*/
+    background-repeat: no-repeat; /*limite para que no se vea en todo el recuadro */
+    background-position-y: 5px ; /*Agregamos una posicion ventrada*/
+    background-position-x: 5px;
+}
+
+.from-email button{
+    display:block; /*Cambiamos el display*/
+    border-style: solid;
+    margin-top: 10px;/*Para que se separe de su padre*/
+    background: transparent; /*El boton no tendran fondo*/
+    color: black;/*Color de las letras del boton*/
+    padding: 5px 0;
+    border-radius: 5px;
+    width: 100px;
+   
+}
+.container{
+    /*border: 1px solid red;*/
+    width: 1200px; /*Ancho de nuestra area*/
+    margin: 0 auto;/*Centramos el elemento*/
+    display: inherit;/*heredamos*/
+    justify-content: inherit;/*heredamos*/
+    align-items: inherit;/*heredamos*/
+    height: inherit;/*heredamos*/   
+    flex-wrap: inherit;/*heredamos*/
+}
+.container2{
+    /*border: 1px solid red;*/
+    width: 1200px; /*Ancho de nuestra area*/
+    margin: 0 auto;/*Centramos el elemento*/
+    display: inherit;/*heredamos*/
+    justify-content: inherit;/*heredamos*/
+    align-items: inherit;/*heredamos*/
+    flex-wrap: inherit;/*heredamos*/
+}
